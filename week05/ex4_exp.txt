@@ -1,0 +1,2 @@
+In this case, the program execution time is almost similar to the time in task 3.
+Because the threads execute almost in parallel, and the delays caused by the mutex are not so great.

@@ -1,0 +1,169 @@
+    1  whoami
+    2  hostname
+    3  man
+    4  man whoami
+    5  man --help
+    6  less
+    7  head
+    8  ls
+    9  cd ..
+   10  ls
+   11  cd emapfff/
+   12  cd /proc
+   13  ls
+   14  grep task /proc
+   15  cd ..
+   16  grep task /proc
+   17  cd /proc
+   18  grep -r "task"
+   19  clear
+   20  cal
+   21  cd..
+   22  cd ..
+   23  cal
+   24  uptime
+   25  cat > output.txt
+   26  cd .. 
+   27  cat > output.txt
+   28  touck output.txt
+   29  touch output.txt
+   30  ls
+   31  cd /home/
+   32  ls
+   33  cd emapfff/
+   34  ls
+   35  cd Desktop/
+   36  ls
+   37  touch output.txt
+   38  cd ..
+   39  cd /proc/
+   40  get -r 'test' > output.txt
+   41  get -r 'test' > home/emapfff/Desktop/output.txt
+   42  grep -r 'test' > output.txt
+   43  grep -r 'task' > output.txt
+   44  grep -r 'task' > home/emapfff/Desktop/output.txt
+   45  grep -r 'task'
+   46  grep -r 'task' > output.txt
+   47  grep -r 'task' > /home/emapfff/Desktop/output.txt
+   48  grep -r 'errors'
+   49  cd .. 
+   50  cd ..
+   51  cd /home/
+   52  cd emapfff/
+   53  cd Desktop/
+   54  touch errors.txt
+   55  cd ..
+   56  cd /proc/
+   57  grep -r 'errors' > /home/emapfff/Desktop/errors.txt
+   58  cd `
+   59  cd ~
+   60  ls .
+   61  pwd
+   62  cd ..
+   63  cd ~
+   64  pwd
+   65  jobs
+   66  gedit &
+   67  gedit
+   68  jobs
+   69  gedit &
+   70  jobs
+   71  nano
+   72  nano notes.txt
+   73  jobs
+   74  nano notes.txt
+   75  fg
+   76  gedit & notes.txt
+   77  jobs
+   78  gedit notes.txt &
+   79  bg
+   80  rm notes.txt
+   81  jobs
+   82  bg
+   83  rm notes.txt
+   84  gedit notes.txt &
+   85  jobs
+   86  nano notes.txt
+   87  jobs
+   88  nano notes
+   89  jobs
+   90  gedit notes.txt &
+   91  jobs
+   92  notes >> notes.txt
+   93  cat notes >> notes.txt
+   94  gedit notes.txt
+   95  nano notes
+   96  cat notes > notes.txt
+   97  gedit notes.txt
+   98  bg
+   99  fg
+  100  cat notes > notes.txt
+  101  gedit notes.txt &
+  102  jobs
+  103  fg
+  104  gedit notes.txt
+  105  bg
+  106  jobs
+  107  clear
+  108  pwd
+  109  cd ..
+  110  mkdir ~/week01
+  111  ls
+  112  cd ..
+  113  ls 
+  114  cd home/
+  115  cd week01/
+  116  cd ~/week01
+  117  grep -r /usr/bin "gcc"
+  118  find /usr/bin -type f -name "*gcc"
+  119  find /usr/bin/ -type f -name "*gcc"
+  120  find /usr/bin/ -name "*gcc*"
+  121  find /usr/bin/ -name "*gcc" | tail -5 | sort -r
+  122  find /usr/bin/ -name "*gcc*" | head -5 | sord -r
+  123  find /usr/bin/ -name "*gcc*" | head -5 | sort -r
+  124  find /usr/bin/ -name "*gcc*"
+  125  find /usr/bin/ -name "*gcc*" | sort -r | head -5
+  126  find /usr/bin/ -name "*gcc*" | head -n 5
+  127  find /usr/bin/ -name "*gcc*" | tail -n 5
+  128  find /usr/bin/ -name "*gcc*" | tail -n 5 | sort -r
+  129  find /usr/bin/ -name "*gcc*" | tail -n 5 | sort -r > ~/week01/ex1.txt
+  130  gedit ~ex1.txt
+  131  cat ~/week01/ex1.txt
+  132  cd ~
+  133  cd Desktop/
+  134  touch ex1.txt
+  135  rm ex1.txt
+  136  toch ex1.sh
+  137  touch ex1.sh
+  138  nano ex1.sh
+  139  cd ~
+  140  clear
+  141  touch test.txt
+  142  cat "Linux is best" > test.txt
+  143  gedit test.txt &
+  144  cat test.txt
+  145  sort -n -r test.txt
+  146  history > ~/week01/ex2.txt
+  147  cat ~/week01/ex2.txt 
+  148  history > ~/week01/ex2.txt > ex2.sh
+  149  cat ex2.sh
+  150  rm ex2.sh
+  151  cd ~/week01/
+  152  ls
+  153  cat ex2.txg
+  154  cat ex2.txt 
+  155  cat ex1.txt
+  156  exit
+  157  cd /home/
+  158  ls
+  159  cd emapfff/
+  160  ls
+  161  cd /Desktop
+  162  cd Desktop/
+  163  touch test.txt
+  164  echo "KOLYA" > test.txt
+  165  echo "ROMAN" > test.txt
+  166  echo "1" > test.txt
+  167  cat test.txt
+  168  history -> ~/week01/ex2.txt
+  169  history > ~/week01/ex2.txt

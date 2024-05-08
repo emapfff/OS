@@ -1,0 +1,1 @@
+After executing three distinct memory allocation algorithms, it became evident that the throughput of the algorithms is relatively consistent, with the exception being the first-fit algorithm, which lags behind the other two in terms of performance.

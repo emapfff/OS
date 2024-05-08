@@ -1,0 +1,1 @@
+I concluded that for each subscriber you need to create your own pipe, because it works on the FIFO principle, where the first one in comes out first. To do this, each subscriber needs to reinforce their pipe, which in turn is connected to the publisher

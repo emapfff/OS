@@ -1,0 +1,4 @@
+As the number of threads increased, the overall execution time generally decreased.
+With a single thread (m=1), the program took the longest time to execute.
+System time also increased with more threads, suggesting higher kernel-level activity.
+

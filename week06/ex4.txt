@@ -1,0 +1,1 @@
+Compared to the results of the second and third tasks, the average wait and average execution of the process are worse than in scheduler and sjf

@@ -1,0 +1,5 @@
+n=3: In this case we have 2^n processes, that is, 8 ex3 child processes created by the original ex3 parent process. The process tree is a simple hierarchy with one parent and eight child processes.
+
+n=5: Here we have 32 ex3 child processes created by the original ex3 parent process. The process tree is more extensive, with one parent and five child processes.
+
+And the difference is that the number of child processes in the second case is 4 times larger due to the fact that a tree is built where the number of child processes is equal to 2 ^ n, where n is the number of fork() calls.
